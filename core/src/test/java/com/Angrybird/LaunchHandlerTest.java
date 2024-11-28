@@ -40,6 +40,8 @@ public class LaunchHandlerTest {
         // Initialize the headless backend (useful for non-graphical tests)
         HeadlessApplicationConfiguration config = new HeadlessApplicationConfiguration();
         new HeadlessApplication(new ApplicationAdapter() {}, config);
+
+
     }
 
     @BeforeEach
